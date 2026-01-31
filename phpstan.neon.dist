@@ -1,0 +1,10 @@
+includes:
+    - vendor/phpstan/phpstan-mockery/extension.neon
+
+parameters:
+    level: 6
+    paths:
+        - src/
+        - tests/
+        - ignition.php
+    tmpDir: var/phpstan/
